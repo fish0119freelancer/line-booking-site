@@ -28,7 +28,7 @@ nav a {
 }
 
 nav a:hover {
-    text-decoration: underline;
+    /* text-decoration: underline; */
     color: #000000;
 }
 
@@ -80,7 +80,7 @@ img {
     display: block;
     margin: 0 auto;
     border-radius: 8px; /* Optional: Adds rounded corners */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); Optional: Adds a subtle shadow */
 }
 
 @media screen and (max-width: 768px) {
