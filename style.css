@@ -26,12 +26,15 @@ nav a {
     margin: 0 1rem;
     font-weight: bold;
 }
-nav a:active {
-    color: orange;
-}
+
 nav a:hover {
     text-decoration: underline;
     color: #000000;
+}
+
+nav a.active {
+    color: black;
+    font-weight: bold;
 }
 
 main {
