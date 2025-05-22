@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>聯絡我</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body {
             font-family: 'Helvetica Neue', sans-serif;
@@ -119,6 +120,30 @@
             max-width: 100%;
             height: auto;
             border-radius: 8px; /* optional styling */
+        }
+
+        @media screen and (max-width: 768px) {
+            header, footer {
+                padding: 0.5rem;
+            }
+            nav {
+                padding: 0.3rem;
+            }
+            nav a {
+                margin: 0 0.5rem;
+                font-size: 0.9rem;
+            }
+            main {
+                margin: 1rem auto;
+                padding: 0 0.5rem;
+            }
+            .contact-container {
+                flex-direction: column;
+                gap: 1rem;
+            }
+            h1, h2 {
+                font-size: 1.2rem;
+            }
         }
     </style>
 </head>
