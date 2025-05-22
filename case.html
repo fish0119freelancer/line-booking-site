@@ -1,16 +1,16 @@
-
-    <!DOCTYPE html>
-    <html lang="zh-Hant">
-    <head>
-        <meta charset="UTF-8">
-        <title>成功案例 - 計程車平台</title>
-        
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <title>成功案例 - 計程車平台</title>
+    
 <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
     body {
-        font-family: 'Helvetica Neue', sans-serif;
+        font-family: 'Roboto', sans-serif;
         margin: 0;
         padding: 0;
-        background-color: #fdf6ec;
+        background: linear-gradient(to bottom, #fdf6ec, #f5e0c3);
         color: #4e342e;
     }
     header, footer {
@@ -29,6 +29,10 @@
         margin: 0 1rem;
         font-weight: bold;
     }
+    nav a:hover {
+        text-decoration: underline;
+        color: #ff7043;
+    }
     main {
         max-width: 800px;
         margin: 2rem auto;
@@ -40,31 +44,50 @@
     ul {
         padding-left: 1.5rem;
     }
+    button {
+        background: linear-gradient(to right, #a1887f, #8d6e63);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s;
+        border: none;
+        color: white;
+        padding: 0.5rem 1rem;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    button:hover {
+        transform: scale(1.05);
+    }
+    .card {
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 1rem;
+        margin: 1rem 0;
+    }
 </style>
 
-    </head>
-    <body>
-        <header>
-            <h1>LINE自動預約系統</h1>
-            
-        </header>
-        <nav>
-            <a href="index.html">主頁</a>
-            <a href="about.html">關於我</a>
-            <a href="approach.html">我們的做法</a>
-            <a href="case.html">成功案例</a>
-            <a href="contact.html">聯絡我</a>
-        </nav>
-        <main>
-        <h2>🧾 成功案例：計程車平台</h2>
-        <p><strong>問題：</strong>接單回覆時間長、乘客混亂、訂單漏接</p>
-        <p><strong>解法：</strong>自動化表單串接 + Google Sheet整合</p>
-        <p><strong>成效：</strong>每月省下20小時人工、乘客滿意度提升</p>
+</head>
+<body>
+    <header>
+        <h1>LINE自動預約系統</h1>
         
-        </main>
-        <footer>
-            <p>© 2025 阮士瑜. All rights reserved.</p>
-        </footer>
-    </body>
-    </html>
+    </header>
+    <nav>
+        <a href="index.html">主頁</a>
+        <a href="about.html">關於我</a>
+        <a href="approach.html">我們的做法</a>
+        <a href="case.html">成功案例</a>
+        <a href="contact.html">聯絡我</a>
+    </nav>
+    <main>
+    <h2>🧾 成功案例：計程車平台</h2>
+    <p><strong>問題：</strong>接單回覆時間長、乘客混亂、訂單漏接</p>
+    <p><strong>解法：</strong>自動化表單串接 + Google Sheet整合</p>
+    <p><strong>成效：</strong>每月省下20小時人工、乘客滿意度提升</p>
     
+    </main>
+    <footer>
+        <p>© 2025 阮士瑜. All rights reserved.</p>
+    </footer>
+</body>
+</html>

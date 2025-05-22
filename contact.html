@@ -5,11 +5,12 @@
     <title>聯絡我</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
         body {
-            font-family: 'Helvetica Neue', sans-serif;
+            font-family: 'Roboto', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #fdf6ec;
+            background: linear-gradient(to bottom, #fdf6ec, #f5e0c3);
             color: #4e342e;
         }
         header, footer {
@@ -27,6 +28,10 @@
             text-decoration: none;
             margin: 0 1rem;
             font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+            color: #ff7043;
         }
         main {
             max-width: 800px;
@@ -69,15 +74,17 @@
             font-family: inherit;
         }
         .contact-form button {
-            background-color: #a1887f;
+            background: linear-gradient(to right, #a1887f, #8d6e63);
             color: white;
             padding: 0.7rem 1.5rem;
             border: none;
             border-radius: 5px;
             cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
         }
         .contact-form button:hover {
-            background-color: #8d6e63;
+            transform: scale(1.05);
         }
         .faq {
             margin: 2rem 0;
@@ -120,6 +127,13 @@
             max-width: 100%;
             height: auto;
             border-radius: 8px; /* optional styling */
+        }
+        .card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 1rem;
+            margin: 1rem 0;
         }
 
         @media screen and (max-width: 768px) {
